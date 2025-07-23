@@ -17,5 +17,17 @@ Before running a script, you need to grant it execution permission **once**:
 chmod  +x  clean_branches.sh
 ```
 
+Also you can add shortcut
+for bash:
+```markdown
+echo 'alias clean_branches="./clean_branches.sh"' >> ~/.bashrc
+source ~/.bashrc
+```
+for zsh:
+```markdown
+echo 'alias clean_branches="./clean_branches.sh"' >> ~/.zshrc
+source ~/.zshrc
+```
+
 ## ⚠️ Alert
 Force  deletion  isn’t  an  option.  Unmerged  branches  must  be  handled  manually
