@@ -18,6 +18,7 @@ chmod  +x  clean_branches.sh
 ```
 
 Also you can add shortcut
+
 for bash:
 ```markdown
 echo 'alias clean_branches="./clean_branches.sh"' >> ~/.bashrc
