@@ -1,14 +1,18 @@
 # faster-branch-cleanup
 An interactive way to clean up your git branch mess.
 
-## 🧩 Usage
+## 🧩 Install
 Depending on your workflow:
 
 -  **Single Repository?**
-Use the script inside the `single-repo/` folder.
+```markdown
+curl -O https://raw.githubusercontent.com/KeremKahraman9/faster-branch-cleanup/main/single-repo/clean_branches.sh
+```
 
 -  **Multiple Repositories?**
-Use the script in the `multiple-repo/` folder.  
+```markdown
+curl -O https://raw.githubusercontent.com/KeremKahraman9/faster-branch-cleanup/main/multiple-repo/clean_branches.sh
+```
 
 ## ✅ First-Time Setup
 Before running a script, you need to grant it execution permission **once**:
